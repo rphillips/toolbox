@@ -1,4 +1,4 @@
-FROM alpine
+FROM alpine:3.11
 LABEL maintainer="Christian Wagner https://github.com/chriswayg"  
 ENV TERM=xterm
 WORKDIR /media/root
@@ -17,7 +17,6 @@ RUN cat /etc/os-release && \
         ca-certificates \
         coreutils \
         bind-tools \
-        dstat@testing \
         file \
         gettext \
         git \
