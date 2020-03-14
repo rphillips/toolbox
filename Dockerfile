@@ -35,6 +35,7 @@ RUN cat /etc/os-release && \
         net-tools \
         nmap \
         pciutils \
+        procps \
         psmisc \
         pv \
         python2 \
